@@ -1,4 +1,4 @@
-const accounts = [
+/*const accounts = [
   {
     id: "5f446f2ecfaf0310387c9603",
     picture: "https://api.adorable.io/avatars/75/esther.tucker@zillacon.me",
@@ -910,6 +910,9 @@ const accounts = [
     registered: "Saturday, November 4, 2017 12:19 AM",
   },
 ];
+
+
+
 
 const books = [
   {
@@ -7948,6 +7951,8 @@ const books = [
   },
 ];
 
+
+
 const authors = [
   {
     id: 0,
@@ -8300,16 +8305,19 @@ const authors = [
     },
   },
 ];
+*/
 
 
 
 function findAuthorById(authors, id) {
+  //Returns the desired author
  return authors.find((author) => author.id === id);
 }
 
 //console.log(findAuthorById(authors, 11))
 
 function findBookById(books, id) {
+  //Returns the desired book
   return books.find((book) => book.id === id)
 }
 
@@ -8324,7 +8332,7 @@ function partitionBooksByBorrowedStatus(books) {
   //Finds all the books that are not currently checked out.
   const returnedBookArr = books.filter((book) => book.borrows[0].returned === true);
 
-
+  //Ads both arrays into one and reutrns the answer
   answer = [checkedOutBookArr, returnedBookArr]
   return answer;
   }
@@ -8334,7 +8342,9 @@ function partitionBooksByBorrowedStatus(books) {
 
 
 function getBorrowersForBook(book, accounts) {
-  //Prevents from adding the same accountId into the answer
+ //Code that works for all the data (all the arrays)
+ 
+  /* //Prevents from adding the same accountId into the answer
   let currId;
   let answer = [];
   let accountsArr = [];
@@ -8394,10 +8404,10 @@ function getBorrowersForBook(book, accounts) {
       answer.pop();
 }
 }
-  return answer;
+  return answer;*/
 
   //Qualified (Chegg Skills answer)
-  /*
+  
    let accountInfo = [];
   let answer = [];
   let currId;
@@ -8442,9 +8452,9 @@ function getBorrowersForBook(book, accounts) {
  reduceAnswer(answer);
 }   
   return answer;
-  */
 }
-console.log(getBorrowersForBook(books, accounts));
+
+//console.log(getBorrowersForBook(books, accounts));
 
 module.exports = {
   findAuthorById,

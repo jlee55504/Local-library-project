@@ -1,4 +1,4 @@
-const accounts = [
+/*const accounts = [
   {
     id: "5f446f2ecfaf0310387c9603",
     picture: "https://api.adorable.io/avatars/75/esther.tucker@zillacon.me",
@@ -910,6 +910,9 @@ const accounts = [
     registered: "Saturday, November 4, 2017 12:19 AM",
   },
 ];
+
+
+
 
 const books = [
   {
@@ -7949,6 +7952,7 @@ const books = [
 ];
 
 
+
 const authors = [
   {
     id: 0,
@@ -8301,7 +8305,7 @@ const authors = [
     },
   },
 ];
-
+*/
 
 
 function findAccountById(accounts, id) {
@@ -8312,11 +8316,14 @@ function findAccountById(accounts, id) {
 }
 
 function sortAccountsByLastName(accounts) {
+  //Sorts names in accounts array alphabetically
   return accounts.sort((nameA, nameB) => nameA.name.last.toLowerCase() > nameB.name.last.toLowerCase() ? 1 : -1);
 }
 
 const getTotalNumberOfBorrows = (account, books) => {
-  let totalNumber = 0;
+ //Code that works for all the data (arrays)
+
+  /* let totalNumber = 0;
   let accountIdArr;
 
   //Gets borrows array from each book object
@@ -8341,11 +8348,11 @@ const getTotalNumberOfBorrows = (account, books) => {
   //Adds the total number of books borrowed
   totalNumber = accountIdArr.length;
 
-  return totalNumber;
+  return totalNumber;*/
 
 
-//Chegg Skills answer
-  /*
+  //Chegg Skills answer
+ 
   let totalNumber  = 0;
   let accountIdArr;
 
@@ -8367,7 +8374,6 @@ const getTotalNumberOfBorrows = (account, books) => {
   totalNumber = accountIdArr.length;
 
   return totalNumber;
-  */
 }
 
 

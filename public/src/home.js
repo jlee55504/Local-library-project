@@ -1,4 +1,4 @@
-const accounts = [
+/*const accounts = [
   {
     id: "5f446f2ecfaf0310387c9603",
     picture: "https://api.adorable.io/avatars/75/esther.tucker@zillacon.me",
@@ -910,6 +910,9 @@ const accounts = [
     registered: "Saturday, November 4, 2017 12:19 AM",
   },
 ];
+
+
+
 
 const books = [
   {
@@ -7948,6 +7951,8 @@ const books = [
   },
 ];
 
+
+
 const authors = [
   {
     id: 0,
@@ -8300,6 +8305,7 @@ const authors = [
     },
   },
 ];
+*/
 
 
 function getTotalBooksCount(books) {
@@ -8322,6 +8328,7 @@ function getTotalBooksCount(books) {
 //console.log(getTotalBooksCount(books));
 
 function getTotalAccountsCount(accounts) {
+  //Returns the number of accounts in the accounts array
   return accounts.length;
 }
 
@@ -8494,7 +8501,7 @@ function getMostPopularAuthors(books, authors) {
   }
 
 
-console.log(getMostPopularAuthors(books, authors));
+//console.log(getMostPopularAuthors(books, authors));
 
 
 module.exports = {
