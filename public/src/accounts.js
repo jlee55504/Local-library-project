@@ -8381,16 +8381,16 @@ const getTotalNumberOfBorrows = (account, books) => {
 
 function getBooksPossessedByAccount(account, books, authors) {
   //get all the books that have borrow.returned===false and  borrow id= accountid 
-  const accountBooks= books.filter((book)=>book.borrows[0].returned===false && book.borrows[0].id===account.id)
+  const accountBooks= books.filter((book)=> book.borrows[0].returned === false && book.borrows[0].id === account.id)
 
   //add author based on authorId
   for (let i = 0; i< accountBooks.length; i++){
     //get the book that match the authorId
-    const bookName= authors.filter((author)=>author.id===accountBooks[i].authorId)
+    const bookName = authors.filter((author)=> author.id === accountBooks[i].authorId);
     //assign author
-    accountBooks[i].author=bookName[0]
+    accountBooks[i].author = bookName[0];
   }
-  console.log(accountBooks);
+ // console.log(accountBooks);
   return accountBooks;
 }
 
