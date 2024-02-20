@@ -30,6 +30,7 @@ Has two parameters, in the following order:
 
 It returns a number that represents the number of times the account's ID appears in any book's `borrows` array.
 
+Crossed-out code will run for all the data in both the "_accounts_" and "_books_" arrays and still gets the correct answer. This is beyond the requirements of Chegg Skills, but I like challenges. Their problem used only one item in the "_accounts_" array instead of every item in the "_accounts_" array.
 
 
 4.getBooksPossessedByAccount()
@@ -85,7 +86,8 @@ Has two parameters, in the following order:
 
 It should return an array of ten or fewer account objects that represents the accounts given by the IDs in the provided book's `borrows` array. However, each account object should include the `returned` entry from the corresponding transaction object in the `borrows` array.
 
-
+Crossed-out code will run for all the data in both the "_accounts_" and "_books
+_" arrays and still gets the correct answer. This is beyond the requirements of Chegg Skills, but I like challenges. Their problem used only one item in the "_books_" array instead of every item in the "_books_" array.
 
 
 home.js functions()
