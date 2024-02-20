@@ -8342,7 +8342,7 @@ function partitionBooksByBorrowedStatus(books) {
 
 
 function getBorrowersForBook(book, accounts) {
- //Code that works for all the data (all the arrays)
+ //Code that works for all the data in both the books and accounts arrays
  
   /* //Prevents from adding the same accountId into the answer
   let currId;
