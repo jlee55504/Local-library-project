@@ -8321,7 +8321,7 @@ function sortAccountsByLastName(accounts) {
 }
 
 const getTotalNumberOfBorrows = (account, books) => {
- //Code that works for all the data (arrays)
+ //Code that works for all the data in both the books and accounts arrays
 
   /* let totalNumber = 0;
   let accountIdArr;
