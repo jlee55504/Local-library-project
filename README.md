@@ -1,18 +1,22 @@
+Local Library Project
+
 Completed Chegg Skill's "Local library" "Qualified" project.
 
-Overview:
+## Overview:
 Local library project where people can lend and borrow books.  It shows which books are available, which are currently out, and other general statistics about the program.
 
-Built with:
+## Built with:
   * JavaScript ES6
   * HTML5
   * CSS3
   * Chai used for testing
 
 
-![Alt text](https://github.com/jlee55504/Local-library-project/blob/main/imgs/Local%20library%20project%20accounts%20screen%20image.png?raw=true  "Local library project accounts screen")
 
-account.js functions()
+
+## account.js functions()
+
+![Alt text](https://github.com/jlee55504/Local-library-project/blob/main/imgs/Local%20library%20project%20accounts%20screen%20image.png?raw=true  "Local library project accounts screen")
 
 1. findAccountById()
 has two parameters, in the following order:
@@ -52,9 +56,11 @@ Has three parameters, in the following order:
 It returns an array of book objects, including author information, that represents all books currently checked out by the given account.
 
 
-![Alt text](https://github.com/jlee55504/Local-library-project/blob/main/imgs/Local%20library%20project%20books%20screen%20image.png?raw=true  "Local library project books screen")
 
-book.js functions()
+
+## book.js functions()
+
+![Alt text](https://github.com/jlee55504/Local-library-project/blob/main/imgs/Local%20library%20project%20books%20screen%20image.png?raw=true  "Local library project books screen")
 
 1. findAuthorById()
  Has two parameters, in the following order:
@@ -95,9 +101,11 @@ Returns an array of ten or fewer account objects that represents the accounts gi
 Crossed-out code will run for all the data in both the `accounts` and `books` arrays and still gets the correct answer. This is beyond the requirements of Chegg Skills, but I like challenges. Their problem used only one item in the `books` array instead of every item in the `books` array.
 
 
-![Alt text](https://github.com/jlee55504/Local-library-project/blob/main/imgs/Local%20library%20project%20home%20screen%20image.png?raw=true  "Local library project home page")
 
-home.js functions()
+
+## home.js functions()
+
+![Alt text](https://github.com/jlee55504/Local-library-project/blob/main/imgs/Local%20library%20project%20home%20screen%20image.png?raw=true  "Local library project home page")
 
 1. getTotalBooksCount()
 Has a single parameter:
