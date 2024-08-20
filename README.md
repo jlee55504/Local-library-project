@@ -3,15 +3,13 @@
 Completed Chegg Skill's "Local library" "Qualified" project.
 
 ## Overview:
-Local library project where people can lend and borrow books.  It shows which books are available, which are currently out, and other general statistics about the program.
+Wrote a program using JavaScript ES6 that uses a database to display the information from a local neighborhood library including the account info of every customer and show the most popular authors, books, and the most common genres.
 
 ## Built with:
   * JavaScript ES6
   * HTML5
   * CSS3
   * Chai used for testing
-
-
 
 
 ## account.js functions()
