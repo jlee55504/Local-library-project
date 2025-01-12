@@ -29,9 +29,9 @@ A web application that uses several databases to display the information from a 
   ### Installation
 
     1. Clone the repository:
-      ```
+       ```
         git clone https://github.com/jlee55504/Local-library-project.git
-      ```
+       ```
     2. Navigate to the project directory:
        ```
         cd Local-library-project
