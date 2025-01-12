@@ -19,12 +19,13 @@ A web application that uses several databases to display the information from a 
 ![Alt text](https://github.com/jlee55504/Local-library-project/blob/main/imgs/Local%20library%20project%20home%20screen%20image.png?raw=true  "Local library project home page")
 
 ## Getting Started
+
   ### Prerequisites
   
     - Node Package Manager (NPM)
   
   ### Installation
-  
+
     1. Clone the repository:
       ```
         git clone https://github.com/jlee55504/Local-library-project.git
