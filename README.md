@@ -3,16 +3,18 @@
 A web application that uses several databases to display the information from a local neighborhood library.
 
 ## Features
+
   - **Account Management:** Lists the library's account information.
   - **Book Management:** Lists the library's book information.
   - **Authors Management:** Lists the library's authors information.
   - **User-friendly Interface:** Simple, easy to navigate interface.
 
 ## Technologies Used
-  * **JavaScript:** Core programming language (JavaScript ES6)
-  * **HTML:** Visually displays content of the application
-  * **Bootstrap:** Provides visual styling for the application
-  * **Chai:** Unit testing framework
+
+  - **JavaScript:** Core programming language (JavaScript ES6)
+  - **HTML:** Visually displays content of the application
+  - **Bootstrap:** Provides visual styling for the application
+  - **Chai:** Unit testing framework
 
 ## Screenshot
 
