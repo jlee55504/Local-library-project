@@ -24,7 +24,7 @@ A web application that uses several databases to display the information from a 
 
   ### Prerequisites
   
-    - Node Package Manager (NPM)
+   - Node Package Manager (NPM)
   
   ### Installation
 
