@@ -30,19 +30,19 @@ A web application that uses several databases to display the information from a 
 
   1. Clone the repository:
      ```
-      git clone https://github.com/jlee55504/Local-library-project.git
+     git clone https://github.com/jlee55504/Local-library-project.git
      ```
   2. Navigate to the project directory:
      ```
-      cd Local-library-project
+     cd Local-library-project
      ```
   3. Build the project:
      ```
-      npm install
+     npm install
      ```
   4. Run the application:
      ```
-      npm start
+     npm start
      ```
 
 ## Usage
