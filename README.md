@@ -20,27 +20,24 @@ A web application that uses several databases to display the information from a 
 
 ## Getting Started
   ### Prerequisites
-
+  
     - Node Package Manager (NPM)
   
   ### Installation
+  
     1. Clone the repository:
-       <tab><tab>
       ```
         git clone https://github.com/jlee55504/Local-library-project.git
       ```
     2. Navigate to the project directory:
-       <tab><tab>
        ```
         cd Local-library-project
        ```
     3. Build the project:
-       <tab><tab>
        ```
         npm install
        ```
     4. Run the application:
-       <tab><tab>
        ```
         npm start
        ```
