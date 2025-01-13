@@ -34,7 +34,7 @@ A web application that uses several databases to display the information from a 
      ```
   2. Navigate to the project directory:
      ```
-     <span style="color:red;">cd > </span> Local-library-project
+     <font color="red">cd</font> Local-library-project
      ```
   3. Build the project:
      ```
