@@ -34,8 +34,7 @@ A web application that uses several databases to display the information from a 
      ```
   2. Navigate to the project directory:
      ```
-     ```
-     $\color{blue}{\text{cd}}$``` Local-library-project ```
+     ``` $\color{blue}{\text{cd}}$ ``` Local-library-project ```
   3. Build the project:
      ```
      npm install
