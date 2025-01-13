@@ -1,3 +1,5 @@
+span
+color: blue
 # Local Library Project
 
 A web application that uses several databases to display the information from a local neighborhood library.
@@ -33,7 +35,6 @@ A web application that uses several databases to display the information from a 
      git clone https://github.com/jlee55504/Local-library-project.git
      ```
   2. Navigate to the project directory:
-     ```
      ```
      $\color{blue}{\text{cd}}$ Local-library-project 
      ```
