@@ -1,3 +1,6 @@
+<style>
+  r {color: blue}
+</style>
 # Local Library Project
 
 A web application that uses several databases to display the information from a local neighborhood library.
@@ -34,7 +37,7 @@ A web application that uses several databases to display the information from a 
      ```
   2. Navigate to the project directory:
      ```
-     <span style="color:blue"> <em>cd</em> </span> Local-library-project
+     <r>cd</r> Local-library-project
      ```
   3. Build the project:
      ```
