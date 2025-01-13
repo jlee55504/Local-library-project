@@ -1,5 +1,3 @@
-span
-color: blue
 # Local Library Project
 
 A web application that uses several databases to display the information from a local neighborhood library.
