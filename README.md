@@ -46,7 +46,8 @@ A web application that uses several databases to display the information from a 
      ```
 
 ## Usage
-<span style="color: steelblue;">Upon running the application, you'll be presented with a home screen and 3 links:</span>
+Upon running the application, you'll be presented with a home screen and 3 links:
+$\color{red}{\text{beautiful red}}$
   1. Overall Stats
   2. Stats by Book
   3. Stats by Account
