@@ -34,7 +34,7 @@ A web application that uses several databases to display the information from a 
      ```
   2. Navigate to the project directory:
      ```
-     cd Local-library-project
+     $\color{blue}{\text{cd}}$ Local-library-project
      ```
   3. Build the project:
      ```
@@ -47,7 +47,6 @@ A web application that uses several databases to display the information from a 
 
 ## Usage
 Upon running the application, you'll be presented with a home screen and 3 links:
-$\color{red}{\text{beautiful red}}$
   1. Overall Stats
   2. Stats by Book
   3. Stats by Account
