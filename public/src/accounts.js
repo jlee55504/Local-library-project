@@ -59,7 +59,7 @@ const getTotalNumberOfBorrows = (account, books) => {
 }
   
   //Gets all the borrowed book ids' that match the account id 
-  accountIdArr = bookBorrowsIds.filter((book) => book === account.id)
+  accountIdArr = bookBorrowsIds.filter((book) => book === account.id);
 
   //Adds the total number of books borrowed
   totalNumber = accountIdArr.length;
