@@ -1,3 +1,4 @@
+{sass, echo = FALSE}
 # Local Library Project
 
 A web application that uses several databases to display the information from a local neighborhood library.
@@ -34,7 +35,7 @@ A web application that uses several databases to display the information from a 
      ```
   2. Navigate to the project directory:
      ```
-      Local-library-project
+     cd Local-library-project
      ```
   3. Build the project:
      ```
@@ -50,7 +51,7 @@ Upon running the application, you'll be presented with a home screen and 3 links
   1. Overall Stats
   2. Stats by Book
   3. Stats by Account
-$\color{blue}{\text{cd}}$
+
 Click the appropriate link to see the desired information.
 
 ## Code Structure
