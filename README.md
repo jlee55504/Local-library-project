@@ -54,12 +54,12 @@ Upon running the application, you'll be presented with a home screen and 3 links
 Click the appropriate link to see the desired information.
 
 ## Code Structure
-  - **index.html:** Application home page
-  - **books.html:** Web page displaying the library's book information
-  - **accounts.html:** Web page displaying the library's account information
-  - **src/accounts.js:** Handles the account web page's functionality
-  - **src/books.js:** Handles the book web page's functionality
-  - **src/home.js:** Handles the home page's functionality
+  - ``index.html:`` Application home page
+  - ``books.html:`` Web page displaying the library's book information
+  - ``accounts.html:`` Web page displaying the library's account information
+  - ``src/accounts.js:`` Handles the account web page's functionality
+  - ``src/books.js:`` Handles the book web page's functionality
+  - ``src/home.js:`` Handles the home page's functionality
 
 ## Acknowledgments
   - This project was built for the Chegg Skill's software engineering program
