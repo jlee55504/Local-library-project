@@ -60,7 +60,8 @@ Click the appropriate link to see the desired information.
   - ``src/accounts.js:`` Handles the account web page's functionality
   - ``src/books.js:`` Handles the book web page's functionality
   - ``src/home.js:`` Handles the home page's functionality
-
+  - ``images/:`` A folder containing all the images used for the design
+  
 ## Acknowledgments
   - This project was built for the Chegg Skill's software engineering program
   - This project contains extra commented-out code in functions to use 2 datasets instead of 1 to get the same correct data
