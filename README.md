@@ -60,7 +60,7 @@ Click the appropriate link to see the desired information.
   - ``src/accounts.js:`` Handles the account web page's functionality
   - ``src/books.js:`` Handles the book web page's functionality
   - ``src/home.js:`` Handles the home page's functionality
-  - ``imgs/:`` A folder containing all the images used for the design
+  - ``imgs/:`` A folder containing all the screenshots of the application
 
 ## Acknowledgments
   - This project was built for the Chegg Skill's software engineering program
