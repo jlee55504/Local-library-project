@@ -13,7 +13,7 @@ A web application that uses several databases to display the information from a 
 
   - **JavaScript:** Core programming language (JavaScript ES6)
   - **HTML:** Visually displays content of the application
-  - **Bootstrap:** Provides visual styling for the application
+  - **Bootstrap:** Provides visual styling of the application
   - **Chai:** Unit testing framework
 
 ## Screenshot
